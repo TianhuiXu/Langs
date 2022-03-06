@@ -9,14 +9,13 @@ public class TESTING : MonoBehaviour
     void Start()
     {
         dialogue = SpeechSystem.instance;
-        Debug.Log("Hello");
     }
 
     public string[] s = new string[]
     {
-        "Hi:Tianhui",
-        "Nice",
-        "Yeah"
+        "Hello:Vendor",
+        "Hello:User",
+        "What do you want to buy？:Vendor"
     };
 
     int index = 0;

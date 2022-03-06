@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637820750920000000
-    m_Hash: 257788653
+      ticks: 637821196750000000
+    m_Hash: 2547701672
   m_LockFileStatus:
     m_FilePath: /Users/tianhui/My project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637820750960000000
-    m_Hash: 3402760274
+      ticks: 637821196760000000
+    m_Hash: 2566314310
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -1727,6 +1727,87 @@ m_PackageAssets:
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: dev.yarnspinner.unity@2.1.0
+      testable: 0
+      isDirectDependency: 1
+      version: 2.1.0
+      source: 1
+      resolvedPath: /Users/tianhui/My project/Library/PackageCache/dev.yarnspinner.unity@2.1.0
+      assetPath: Packages/dev.yarnspinner.unity
+      name: dev.yarnspinner.unity
+      displayName: Yarn Spinner
+      author:
+        name: Secret Lab
+        email: 
+        url: https://yarnspinner.dev
+      category: 
+      type: tool
+      description: Yarn Spinner is the friendly tool for interactive conversations.
+        Write your dialogue in a simple programming language that's designed to be
+        straightforward for writers and powerful for programmers, and then attach
+        it to your scenes to power your conversations.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.2.2
+        - 1.2.4
+        - 1.2.5
+        - 1.2.6
+        - 1.2.7
+        - 2.0.0-preview
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.1.0
+        compatible:
+        - 1.2.2
+        - 1.2.4
+        - 1.2.5
+        - 1.2.6
+        - 1.2.7
+        - 2.0.0-preview
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.1.0
+        verified: 
+      dependencies:
+      - name: com.unity.textmeshpro
+        version: 1.4.1
+      resolvedDependencies:
+      - name: com.unity.textmeshpro
+        version: 3.0.6
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      keywords:
+      - Dialogue
+      - Yarn
+      registry:
+        id: scoped:OpenUPM
+        name: OpenUPM
+        url: https://package.openupm.com
+        scopes:
+        - dev.yarnspinner
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 1
+      hideInEditor: 0
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637806775938420000
+      documentationUrl: https://docs.yarnspinner.dev/
       hasRepository: 0
       repository:
         type: 
