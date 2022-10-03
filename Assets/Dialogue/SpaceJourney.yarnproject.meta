@@ -1,0 +1,35 @@
+fileFormatVersion: 2
+guid: dcc904c43a5b64aca8286340a1b58c74
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 053561912b1654d80a424bb0696a74ae, type: 3}
+  sourceScripts:
+  - {fileID: 6391573757903218779, guid: 2fde9ce5ba580430bbed8b2d60937a58, type: 3}
+  compileErrors: []
+  serializedDeclarations:
+  - name: $away_mission_readiness
+    typeName: Number
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: SpaceJourney_FinalVersion.yarn, node TalkToCaptain, line 31
+    isImplicit: 1
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: 5e2ef4bb4e2714d818317ecf5623d62b, type: 3}
+  - name: $captain_is_friend
+    typeName: Bool
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: SpaceJourney_FinalVersion.yarn, node TalkToCaptain, line 59
+    isImplicit: 1
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: 5e2ef4bb4e2714d818317ecf5623d62b, type: 3}
+  defaultLanguage: en-US
+  languagesToSourceAssets: []
+  useAddressableAssets: 0
+  searchAllAssembliesForActions: 1
+  assembliesToSearch: []

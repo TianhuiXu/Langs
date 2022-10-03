@@ -1,0 +1,23 @@
+﻿title: Start
+---
+<<set $shapes_like_you to true>>
+Dama: Hello!
+You: Hello!
+Dama: What do you want to buy?
+
+-> An apple.
+    <<set $name to "Apple">>
+-> An egg.
+    <<set $name to "Egg">>
+-> Pyramid. Why; who wants to know?
+    <<set $name to "Pyramid">>
+    <<set $shapes_like_you to false>>
+
+<<if $name == "Apple">>
+    Dama: New word {$name}!
+    You: 一个苹果
+<<else>>
+    Sphere: No need to be so rude...
+    Cube: Yeah, maybe you should be called Grumpy {$name}.
+<<endif>>
+===
